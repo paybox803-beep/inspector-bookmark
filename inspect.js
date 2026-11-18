@@ -700,8 +700,7 @@ function renderSettings() {
    <div class="details">
     <h3>Ayarlar</h3>
     <label><input type="checkbox" id="ip-mask" ${STATE.settings.maskSensitive ? 'checked' : ''}> Hassas header maskele</label>
-    <label><input type="checkbox" id="ip-bodies" ${STATE.settin
-gs.captureBodies ? 'checked' : ''}> Body yakala</label>
+    <label><input type="checkbox" id="ip-bodies" ${STATE.settings.captureBodies ? 'checked' : ''}> Body yakala</label>
     <div class="field"><label>Maksimum kayıt</label>
      <input id="ip-max" type="number" min="50" max="5000" value="${STATE.maxRecords}">
     </div>
